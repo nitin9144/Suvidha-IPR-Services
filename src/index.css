@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-navy-950: #050e1f;
+  --color-navy-900: #0b1c3d;
+  --color-navy-800: #122454;
+  --color-navy-700: #1a306e;
+  --color-navy-600: #223d8a;
+  --color-navy-100: #e8edf7;
+  --color-navy-50: #f4f6fb;
+
+  --color-gold-700: #a07830;
+  --color-gold-600: #b8913c;
+  --color-gold-500: #c8a84b;
+  --color-gold-400: #d4b96a;
+  --color-gold-300: #e2cc96;
+  --color-gold-100: #f6f0e0;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c8a84b #0b1c3d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #f4f6fb;
+  color: #0b1c3d;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-data {
+  font-family: var(--font-mono);
+}

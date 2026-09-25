@@ -1,0 +1,10 @@
+{
+  "description": "Access comprehensive patent reference services with Suvidha IPR Services, designed for inventors and businesses to streamline intellectual property management.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
